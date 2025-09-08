@@ -3389,6 +3389,86 @@ section {
     }
 }
 
+/* Icon containers for replaced images */
+.about-icon-container,
+.team-icon-container,
+.blog-icon-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #F3525A, #152440);
+    border-radius: 15px;
+}
+
+.about-main-icon {
+    font-size: 120px;
+    color: white;
+}
+
+.team-icon-container i {
+    font-size: 80px;
+    color: white;
+}
+
+.blog-icon-container {
+    height: 250px;
+}
+
+.blog-icon-container i {
+    font-size: 60px;
+    color: white;
+}
+
+.testimonial-avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #F3525A, #152440);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+}
+
+.testimonial-avatar i {
+    font-size: 24px;
+    color: white;
+}
+
+.client-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.client-logo i {
+    font-size: 40px;
+    color: #F3525A;
+    transition: all 0.3s ease;
+}
+
+.client-logo:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-5px);
+}
+
+.client-logo:hover i {
+    color: #152440;
+    transform: scale(1.1);
+}
+
+.hero-badge-icon {
+    font-size: 24px;
+    color: #F3525A;
+    margin-right: 10px;
+}
+
 /* ===================================
    RESPONSIVE DESIGN
    =================================== */
