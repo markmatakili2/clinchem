@@ -4992,9 +4992,7 @@ video {
         border-radius: var(--radius-xl) var(--radius-xl) 0 0;
     }
 
-    .brand-text {
-        display: none;
-    }
+
 
     .newsletter-title {
         font-size: 1.75rem;
